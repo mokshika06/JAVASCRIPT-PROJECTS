@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    width: 500px;
+    box-shadow: 0 0 10px 0 black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+
+}
+.header{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.bill-info{
+    display: block;
+    font-size:16px;
+    margin-bottom: 10px;
+}
+.tip-info{
+    display: block;
+    font-size:16px;
+    margin-bottom: 10px;
+   
+}
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+button {
+    width: 120px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #ff0099;
+}
+.result {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}

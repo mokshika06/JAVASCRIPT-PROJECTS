@@ -1,0 +1,38 @@
+.center{
+    text-align: center;
+}
+.container{
+    /* background: red; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.button{
+    padding: 20px;
+    border-radius: 20px;
+    margin: 2px;
+    cursor: pointer;
+}
+.row input{
+    margin: 6px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 13px;
+}
+.row0 button{
+    background-color: rgba(237, 142, 244, 0.553);
+}
+.row1 button{
+    background-color: rgba(41, 136, 219, 0.615);
+}
+.row2 button{
+    background-color: rgba(51, 205, 207, 0.615);
+}
+.row3 button{
+    background-color: rgba(172, 174, 82, 0.615);
+}
+.row4 button{
+    background-color: rgba(135, 230, 142, 0.895);
+}

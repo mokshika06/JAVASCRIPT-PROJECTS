@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(127, 221, 255);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+button{
+    background-color: rgb(83, 114, 141);
+    border: none;
+    padding: 16px 50px 17px 50px;
+    border-radius: 15px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:blueviolet ;
+    color: white;
+    position: relative;
+    overflow:hidden;
+}
+.circle{
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: absolute;
+    animation: animationname 0.5s linear;
+    transform: scale(0);
+}
+@keyframes animationname{
+    to{
+        transform: scale(3);
+        opacity: 0;
+    }
+}

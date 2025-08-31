@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-containrer{
+    margin: 10px;
+    width: 20%;
+    height: 90vh;
+    border-radius: 25px;
+    background: white scroll center;
+    flex: 1;
+    filter: grayscale(1);
+    transition: flex 0.5s ease-in-out;
+
+}
+.inner-containrer h3{
+    color: white;
+    font-size: 24px;
+    background-color:rgba(0,0,0,0.5) ;
+    text-align: center;
+    padding: 10px;
+}
+.active{
+    flex: 3;
+    filter: grayscale(0);
+
+}
+#inner-container1{
+    background-image: url("./images/bangkok.jpg");
+}
+#inner-container2{
+    background-image: url("./images/mumbai.jpg");
+}
+#inner-container3{
+    background-image: url("./images/quebec.jpg");
+}
+#inner-container4{
+    background-image: url("./images/spain.jpg");
+}
+#inner-container5{
+    background-image: url("./images/tokyo.jpg");
+}
